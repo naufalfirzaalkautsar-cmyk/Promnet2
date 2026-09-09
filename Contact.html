@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<Head>
+    <Meta charset="UTF-8">
+    </Meta>
+    <title>Project saya</title>
+</Head>
+
+<body>
+    <h1>My Project</h1>
+    <nav>
+        <a href="Home.html">Home</a> |
+        <a href="About.html">About</a> |
+        <a href="Project.html">Project</a> |
+        <a href="Contact.html">Contact</a>
+    </nav>
+    <hr>
+    <h2>Informasi Kontak</h2>
+    <p>Jika Anda ingin berdiskusi atau bekerja sama, silakan hubungi saya melalui form berikut.
+        <br>
+        Anda juga dapat mengirim email ke
+        <a href="mailto:naufal.firza.alkautsar@gmail.com">naufal.firza.alkautsar@gmail.com</a>.
+    </p>
+    <h2>Form Pesan</h2>
+
+
+    <form>
+        <table border="3" cellspacing="0" cellpadding="6" width="50%">
+            <tr>
+                <th colspan="2">Form Data Kontak</th>
+            </tr>
+            <tr>
+                <th>
+                    <label>Nama Lengkap:</label>
+                </th>
+                <td>
+                    <input type="text" name="nama" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Email :</label>
+                </th>
+                <td>
+                    <input name="email" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Nomor Telepon :</label>
+                </th>
+                <td>
+                    <input type="tel" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Jenis Kelamin :</label>
+                </th>
+                <td>
+                    <input type="radio" name="jk" />Laki-laki <input type="radio" name="jk" />Perempuan
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Tanggal Lahir :</label>
+                </th>
+                <td>
+                    <input type="date" name="tanggal_lahir" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label> Topik Pesan :</label>
+                </th>
+                <td>
+                    <select name="Topik Pesan">
+                        <option value="Diskusi">Diskusi</option>
+                        <option value="Sharing Session">Sharing Session</option>
+                        <option value="Debat">Debat</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Jenis Pesan :</label>
+                </th>
+                <td>
+                    <input type="radio" name="pertanyaan" />pertanyaan <input type="radio" name="saran" />saran <input
+                        type="radio" name="Lainnya" />Lainnya
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Pesan :</label>
+                </th>
+                <td>
+                    <textarea name="Pesan" cols="40" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Salinan Pesan :</label>
+                </th>
+                <td>
+                    <input type="checkbox" name="kirim salinan pesan ke email saya"
+                        value="kirim salinan pesan ke email saya" />kirim salinan pesan ke email saya
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2" align="center">
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Reset" />
+                </th>
+            </tr>
+        </table>
+    </form>
+    <p><i>Catatan : karena website ini hanya menggunakan html dasar. form belum terhubung ke server/database</i></p>
+    <hr>
+    <nav>
+        <a href="Home.html">Kembali ke Home</a>
+    </nav>
+    <h4>
+        2026. Naufal Firza alkautsar
+    </h4>
+
+</body>
+
+</html>
